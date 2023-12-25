@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'css/predictionpage.css' %}">
+    <title>Prediction for House</title>
+   </head>
+<div align="center">
+    <h2>House Price Prediction</h2>
+    <p>Predicted Price: {{ predicted_price }} Lakh</p>
+    <a href="/front/" ><button type="button" class="btn btn-primary">Predict Again?</button></a>
+</div>
+</body>
+</html>
