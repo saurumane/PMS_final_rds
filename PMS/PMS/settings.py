@@ -93,9 +93,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Productmanagement',
-        'USER':'MYSQL_ROOT_PASSWORD',
-        'PASSWORD':'root',
-        'HOST':'db',
+        'USER':'admin',
+        'PASSWORD':'rootroot',
+        'HOST':'productmanagement-instance.czqgsiggeuop.ap-south-1.rds.amazonaws.com',
         'PORT':'3306'
     }
 }
